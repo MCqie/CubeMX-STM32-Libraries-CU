@@ -1,0 +1,5 @@
+"D:\program\Jetbrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\STM32Env\ClionSTM32Proj\CubeMX-STM32-Libraries-CU
+-- Minimal optimization, debug info included
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/STM32Env/ClionSTM32Proj/CubeMX-STM32-Libraries-CU/cmake-build-debug

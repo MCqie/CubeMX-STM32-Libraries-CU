@@ -1,0 +1,4 @@
+ToolSet: w64 6.0 (local)@D:\STM32Env\GW32\mingw32
+Options: 
+
+Options:
