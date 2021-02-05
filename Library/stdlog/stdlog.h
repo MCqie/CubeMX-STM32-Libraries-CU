@@ -7,8 +7,6 @@
 #include "main.h"
 #include "stdio.h"
 #include "stdarg.h"
-int __io_putchar(int ch);
-int fputc(int ch, FILE *f);
 enum LOG_TYPE;
 void print(char* str,...);
 void println(char* str,...);
