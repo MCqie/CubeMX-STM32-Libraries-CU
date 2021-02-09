@@ -9,12 +9,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7d0db6c-8eb4-41fa-899b-87a8f1114fe2" name="Default Changelist" comment="Init">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="d7d0db6c-8eb4-41fa-899b-87a8f1114fe2" name="Default Changelist" comment="调整了stdlog&#10;添加了multi_timer库">
+      <change afterPath="$PROJECT_DIR$/Library/HW_key/mdtemplet.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/HW_key/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/stdlog/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/stdlog/stdlog.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/stdlog/stdlog.h" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +40,13 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/MCqie/CubeMX-STM32-Libraries-CU" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1nmA1RWdPpaZE1yG4qUrEAMlE6m" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -54,7 +59,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Library/HW_key" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -65,21 +70,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\STM32Env\ClionSTM32Proj\CubeMX-STM32-Libraries-CU\Library\HW_key" />
+      <recent name="D:\STM32Env\ClionSTM32Proj\CubeMX-STM32-Libraries-CU\Library" />
       <recent name="D:\STM32Env\ClionSTM32Proj\CubeMX-STM32-Libraries-CU\Library\oledfx" />
       <recent name="D:\STM32Env\ClionSTM32Proj\CubeMX-STM32-Libraries-CU\Core\Library\stdlog" />
       <recent name="D:\STM32Env\ClionSTM32Proj\CubeMX-STM32-Libraries-CU\Core\Library" />
-      <recent name="D:\STM32Env\ClionSTM32Proj\CubeMX-STM32-Libraries-CU\Core" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\STM32Env\ClionSTM32Proj\CubeMX-STM32-Libraries-CU" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -92,7 +91,11 @@
       <workItem from="1611984690871" duration="6829000" />
       <workItem from="1611991610962" duration="2117000" />
       <workItem from="1612420863074" duration="586000" />
-      <workItem from="1612517337032" duration="4207000" />
+      <workItem from="1612517337032" duration="4394000" />
+      <workItem from="1612689964307" duration="4848000" />
+      <workItem from="1612775296359" duration="1746000" />
+      <workItem from="1612837551899" duration="14000" />
+      <workItem from="1612837578792" duration="594000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1611990947150</created>
@@ -115,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612000265542</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="调整了stdlog&#10;添加了multi_timer库">
+      <created>1612523769903</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1612523769903</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,7 +145,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init" />
+    <MESSAGE value="调整了stdlog&#10;添加了multi_timer库" />
+    <option name="LAST_COMMIT_MESSAGE" value="调整了stdlog&#10;添加了multi_timer库" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
