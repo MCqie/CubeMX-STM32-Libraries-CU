@@ -24,6 +24,8 @@ void timer_init(struct Timer* handle, void(*timeout_cb)(), uint32_t timeout, uin
 	handle->timeout_cb = timeout_cb;
 	handle->timeout = _timer_ticks + timeout;
 	handle->repeat = repeat;
+
+
 }
 
 /**

@@ -5,8 +5,9 @@
 #define SERIALTEST_STDLOG_H
 //printf重定向
 #include "main.h"
-#include "stdio.h"
+#include "retarget.h"
 #include "stdarg.h"
+
 enum LOG_TYPE;
 void print(char* str,...);
 void println(char* str,...);
@@ -23,6 +24,5 @@ void log_wrn(char* str,...);
 
 void log_debug(char* str,...);
 
-void initLogger(UART_HandleTypeDef *uart);
 
 #endif //SERIALTEST_STDLOG_H

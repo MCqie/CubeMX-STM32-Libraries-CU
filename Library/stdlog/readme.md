@@ -30,6 +30,8 @@
 
 `#include "stdlog.h" `
 
+删除syscall.c下面的重复函数
+
 初始化 
 
 `initLogger(&huart1);`

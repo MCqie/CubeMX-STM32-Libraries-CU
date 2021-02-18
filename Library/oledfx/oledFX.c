@@ -78,9 +78,9 @@ void OLEDFX_Draw_ProgressBar(struct ProgressBar prog){
        prog.IT=0;
     }
     if(prog.printMode){
-        OLEDFX_squFill(prog.x0,prog.y0,x2,prog.y1);
+        OLEDFX_squFill(prog.x0,prog.y0,x2+prog.x0,prog.y1);
     }else {
-        OLEDFX_squToggle(prog.x0,prog.y0,x2,prog.y1);
+        OLEDFX_squToggle(prog.x0,prog.y0,x2+prog.x0,prog.y1);
     }
     OLED_DrawSquare(prog.x0, prog.y0, prog.x1, prog.y1);
 }

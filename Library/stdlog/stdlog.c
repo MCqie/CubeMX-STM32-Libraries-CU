@@ -2,19 +2,8 @@
 // Created by MCqie on 2021/1/26.
 //
 #include "stdlog.h"
-UART_HandleTypeDef *huarts;
-char debugMode=0;
-char* LogVersion="0.3.2 Alpha";
-char* LogVersionName="Owl";
-int __io_putchar(int ch){
-    HAL_UART_Transmit(huarts, (uint8_t *)&ch, 1, 0xFFFF);
-    return ch;
-}
-int fputc(int ch, FILE *f)
-{
-    HAL_UART_Transmit(huarts, (uint8_t *)&ch, 1, 0xFFFF);
-    return ch;
-}
+UART_HandleTypeDef *huarts;char debugMode=0;
+
 enum LOG_TYPE{
     LOGINFO,LOGERROR,LOGWARNING,LOGDEBUG
 };
@@ -91,20 +80,5 @@ void log_debug(char* str,...){
     println("");
 }
 
-void initLogger(UART_HandleTypeDef *uart){
-    huarts=uart;
-    printf("Serial Controled By:");
-    printf("\n"
-           "███╗   ███╗ ██████╗ ██████╗ ██╗███████╗\n"
-           "████╗ ████║██╔════╝██╔═══██╗██║██╔════╝\n"
-           "██╔████╔██║██║     ██║   ██║██║█████╗  \n"
-           "██║╚██╔╝██║██║     ██║▄▄ ██║██║██╔══╝  \n"
-           "██║ ╚═╝ ██║╚██████╗╚██████╔╝██║███████╗\n"
-           "╚═╝     ╚═╝ ╚═════╝ ╚══▀▀═╝ ╚═╝╚══════╝\n"
-           "                                       \n");
-    println("Ver.%s[%s]",LogVersion,LogVersionName);
-    println("Appearances often are deceiving.\n"
-            "                          ——Aesop, Fables");
-    println("Logger初始化成功！");
-}
+
 
