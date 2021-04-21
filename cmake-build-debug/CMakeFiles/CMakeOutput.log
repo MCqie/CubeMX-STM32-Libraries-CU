@@ -35,15 +35,15 @@ warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 Determining if the C compiler works passed with the following output:
 Change Dir: D:/STM32Env/ClionSTM32Proj/CubeMX-STM32-Libraries-CU/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/STM32Env/GW32/mingw32/bin/mingw32-make.exe cmTC_f7d31/fast && D:/STM32Env/GW32/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_f7d31.dir\build.make CMakeFiles/cmTC_f7d31.dir/build
+Run Build Command(s):D:/STM32Env/GW32/mingw32/bin/mingw32-make.exe cmTC_a1c76/fast && D:/STM32Env/GW32/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_a1c76.dir\build.make CMakeFiles/cmTC_a1c76.dir/build
 mingw32-make.exe[1]: Entering directory 'D:/STM32Env/ClionSTM32Proj/CubeMX-STM32-Libraries-CU/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f7d31.dir/testCCompiler.c.obj
-"D:\STM32Env\10 2020-q4-major\bin\arm-none-eabi-gcc.exe"    -o CMakeFiles\cmTC_f7d31.dir\testCCompiler.c.obj   -c D:\STM32Env\ClionSTM32Proj\CubeMX-STM32-Libraries-CU\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c
-Linking C static library libcmTC_f7d31.a
-"D:\program\Jetbrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -P CMakeFiles\cmTC_f7d31.dir\cmake_clean_target.cmake
-"D:\program\Jetbrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_f7d31.dir\link.txt --verbose=1
-arm-none-eabi-ar qc libcmTC_f7d31.a  CMakeFiles/cmTC_f7d31.dir/testCCompiler.c.obj
-"D:\STM32Env\10 2020-q4-major\bin\arm-none-eabi-ranlib.exe" libcmTC_f7d31.a
+Building C object CMakeFiles/cmTC_a1c76.dir/testCCompiler.c.obj
+"D:\STM32Env\10 2020-q4-major\bin\arm-none-eabi-gcc.exe"    -o CMakeFiles\cmTC_a1c76.dir\testCCompiler.c.obj   -c D:\STM32Env\ClionSTM32Proj\CubeMX-STM32-Libraries-CU\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C static library libcmTC_a1c76.a
+"D:\program\Jetbrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -P CMakeFiles\cmTC_a1c76.dir\cmake_clean_target.cmake
+"D:\program\Jetbrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_a1c76.dir\link.txt --verbose=1
+arm-none-eabi-ar qc libcmTC_a1c76.a  CMakeFiles/cmTC_a1c76.dir/testCCompiler.c.obj
+"D:\STM32Env\10 2020-q4-major\bin\arm-none-eabi-ranlib.exe" libcmTC_a1c76.a
 mingw32-make.exe[1]: Leaving directory 'D:/STM32Env/ClionSTM32Proj/CubeMX-STM32-Libraries-CU/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -51,10 +51,10 @@ mingw32-make.exe[1]: Leaving directory 'D:/STM32Env/ClionSTM32Proj/CubeMX-STM32-
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: D:/STM32Env/ClionSTM32Proj/CubeMX-STM32-Libraries-CU/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/STM32Env/GW32/mingw32/bin/mingw32-make.exe cmTC_81444/fast && D:/STM32Env/GW32/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_81444.dir\build.make CMakeFiles/cmTC_81444.dir/build
+Run Build Command(s):D:/STM32Env/GW32/mingw32/bin/mingw32-make.exe cmTC_a0c47/fast && D:/STM32Env/GW32/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_a0c47.dir\build.make CMakeFiles/cmTC_a0c47.dir/build
 mingw32-make.exe[1]: Entering directory 'D:/STM32Env/ClionSTM32Proj/CubeMX-STM32-Libraries-CU/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_81444.dir/CMakeCCompilerABI.c.obj
-"D:\STM32Env\10 2020-q4-major\bin\arm-none-eabi-gcc.exe"   -v -o CMakeFiles\cmTC_81444.dir\CMakeCCompilerABI.c.obj   -c "D:\program\Jetbrains\CLion 2020.3.1\bin\cmake\win\share\cmake-3.17\Modules\CMakeCCompilerABI.c"
+Building C object CMakeFiles/cmTC_a0c47.dir/CMakeCCompilerABI.c.obj
+"D:\STM32Env\10 2020-q4-major\bin\arm-none-eabi-gcc.exe"   -v -o CMakeFiles\cmTC_a0c47.dir\CMakeCCompilerABI.c.obj   -c "D:\program\Jetbrains\CLion 2020.3.1\bin\cmake\win\share\cmake-3.17\Modules\CMakeCCompilerABI.c"
 Using built-in specs.
 COLLECT_GCC=D:\STM32Env\10 2020-q4-major\bin\arm-none-eabi-gcc.exe
 Target: arm-none-eabi
@@ -62,8 +62,8 @@ Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipelin
 Thread model: single
 Supported LTO compression algorithms: zlib
 gcc version 10.2.1 20201103 (release) (GNU Arm Embedded Toolchain 10-2020-q4-major) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_81444.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
- d:/stm32env/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/cc1.exe -quiet -v -iprefix d:\stm32env\10 2020-q4-major\bin\../lib/gcc/arm-none-eabi/10.2.1/ -isysroot d:\stm32env\10 2020-q4-major\bin\../arm-none-eabi -D__USES_INITFINI__ D:\program\Jetbrains\CLion 2020.3.1\bin\cmake\win\share\cmake-3.17\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles\cmTC_81444.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\MCqie\AppData\Local\Temp\cczQUM1O.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_a0c47.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ d:/stm32env/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/cc1.exe -quiet -v -iprefix d:\stm32env\10 2020-q4-major\bin\../lib/gcc/arm-none-eabi/10.2.1/ -isysroot d:\stm32env\10 2020-q4-major\bin\../arm-none-eabi -D__USES_INITFINI__ D:\program\Jetbrains\CLion 2020.3.1\bin\cmake\win\share\cmake-3.17\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles\cmTC_a0c47.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\MCqie\AppData\Local\Temp\cc2ATzEd.s
 GNU C17 (GNU Arm Embedded Toolchain 10-2020-q4-major) version 10.2.1 20201103 (release) (arm-none-eabi)
 	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
 
@@ -84,17 +84,17 @@ GNU C17 (GNU Arm Embedded Toolchain 10-2020-q4-major) version 10.2.1 20201103 (r
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: d0af1807fcd872df6b1165770acff16d
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_81444.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
- d:/stm32env/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_81444.dir\CMakeCCompilerABI.c.obj C:\Users\MCqie\AppData\Local\Temp\cczQUM1O.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_a0c47.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ d:/stm32env/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_a0c47.dir\CMakeCCompilerABI.c.obj C:\Users\MCqie\AppData\Local\Temp\cc2ATzEd.s
 GNU assembler version 2.35.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10-2020-q4-major) 2.35.1.20201028
 COMPILER_PATH=d:/stm32env/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/;d:/stm32env/10 2020-q4-major/bin/../lib/gcc/;d:/stm32env/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/
 LIBRARY_PATH=d:/stm32env/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/;d:/stm32env/10 2020-q4-major/bin/../lib/gcc/;d:/stm32env/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/;d:/stm32env/10 2020-q4-major/bin/../arm-none-eabi/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_81444.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
-Linking C static library libcmTC_81444.a
-"D:\program\Jetbrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -P CMakeFiles\cmTC_81444.dir\cmake_clean_target.cmake
-"D:\program\Jetbrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_81444.dir\link.txt --verbose=1
-arm-none-eabi-ar qc libcmTC_81444.a  CMakeFiles/cmTC_81444.dir/CMakeCCompilerABI.c.obj
-"D:\STM32Env\10 2020-q4-major\bin\arm-none-eabi-ranlib.exe" libcmTC_81444.a
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_a0c47.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+Linking C static library libcmTC_a0c47.a
+"D:\program\Jetbrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -P CMakeFiles\cmTC_a0c47.dir\cmake_clean_target.cmake
+"D:\program\Jetbrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_a0c47.dir\link.txt --verbose=1
+arm-none-eabi-ar qc libcmTC_a0c47.a  CMakeFiles/cmTC_a0c47.dir/CMakeCCompilerABI.c.obj
+"D:\STM32Env\10 2020-q4-major\bin\arm-none-eabi-ranlib.exe" libcmTC_a0c47.a
 mingw32-make.exe[1]: Leaving directory 'D:/STM32Env/ClionSTM32Proj/CubeMX-STM32-Libraries-CU/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -116,10 +116,10 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-none-eabi-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: D:/STM32Env/ClionSTM32Proj/CubeMX-STM32-Libraries-CU/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):D:/STM32Env/GW32/mingw32/bin/mingw32-make.exe cmTC_81444/fast && D:/STM32Env/GW32/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_81444.dir\build.make CMakeFiles/cmTC_81444.dir/build]
+  ignore line: [Run Build Command(s):D:/STM32Env/GW32/mingw32/bin/mingw32-make.exe cmTC_a0c47/fast && D:/STM32Env/GW32/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_a0c47.dir\build.make CMakeFiles/cmTC_a0c47.dir/build]
   ignore line: [mingw32-make.exe[1]: Entering directory 'D:/STM32Env/ClionSTM32Proj/CubeMX-STM32-Libraries-CU/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_81444.dir/CMakeCCompilerABI.c.obj]
-  ignore line: ["D:\STM32Env\10 2020-q4-major\bin\arm-none-eabi-gcc.exe"   -v -o CMakeFiles\cmTC_81444.dir\CMakeCCompilerABI.c.obj   -c "D:\program\Jetbrains\CLion 2020.3.1\bin\cmake\win\share\cmake-3.17\Modules\CMakeCCompilerABI.c"]
+  ignore line: [Building C object CMakeFiles/cmTC_a0c47.dir/CMakeCCompilerABI.c.obj]
+  ignore line: ["D:\STM32Env\10 2020-q4-major\bin\arm-none-eabi-gcc.exe"   -v -o CMakeFiles\cmTC_a0c47.dir\CMakeCCompilerABI.c.obj   -c "D:\program\Jetbrains\CLion 2020.3.1\bin\cmake\win\share\cmake-3.17\Modules\CMakeCCompilerABI.c"]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=D:\STM32Env\10 2020-q4-major\bin\arm-none-eabi-gcc.exe]
   ignore line: [Target: arm-none-eabi]
@@ -127,8 +127,8 @@ Parsed C implicit link information from above output:
   ignore line: [Thread model: single]
   ignore line: [Supported LTO compression algorithms: zlib]
   ignore line: [gcc version 10.2.1 20201103 (release) (GNU Arm Embedded Toolchain 10-2020-q4-major) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_81444.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
-  ignore line: [ d:/stm32env/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/cc1.exe -quiet -v -iprefix d:\stm32env\10 2020-q4-major\bin\../lib/gcc/arm-none-eabi/10.2.1/ -isysroot d:\stm32env\10 2020-q4-major\bin\../arm-none-eabi -D__USES_INITFINI__ D:\program\Jetbrains\CLion 2020.3.1\bin\cmake\win\share\cmake-3.17\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles\cmTC_81444.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\MCqie\AppData\Local\Temp\cczQUM1O.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_a0c47.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+  ignore line: [ d:/stm32env/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/cc1.exe -quiet -v -iprefix d:\stm32env\10 2020-q4-major\bin\../lib/gcc/arm-none-eabi/10.2.1/ -isysroot d:\stm32env\10 2020-q4-major\bin\../arm-none-eabi -D__USES_INITFINI__ D:\program\Jetbrains\CLion 2020.3.1\bin\cmake\win\share\cmake-3.17\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles\cmTC_a0c47.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\MCqie\AppData\Local\Temp\cc2ATzEd.s]
   ignore line: [GNU C17 (GNU Arm Embedded Toolchain 10-2020-q4-major) version 10.2.1 20201103 (release) (arm-none-eabi)]
   ignore line: [	compiled by GNU C version 7.3-win32 20180312  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
   ignore line: []
@@ -149,8 +149,8 @@ Parsed C implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: d0af1807fcd872df6b1165770acff16d]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_81444.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
-  ignore line: [ d:/stm32env/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_81444.dir\CMakeCCompilerABI.c.obj C:\Users\MCqie\AppData\Local\Temp\cczQUM1O.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_a0c47.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+  ignore line: [ d:/stm32env/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_a0c47.dir\CMakeCCompilerABI.c.obj C:\Users\MCqie\AppData\Local\Temp\cc2ATzEd.s]
   ignore line: [GNU assembler version 2.35.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10-2020-q4-major) 2.35.1.20201028]
   ignore line: [COMPILER_PATH=d:/stm32env/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/]
   ignore line: [d:/stm32env/10 2020-q4-major/bin/../lib/gcc/]
@@ -159,12 +159,12 @@ Parsed C implicit link information from above output:
   ignore line: [d:/stm32env/10 2020-q4-major/bin/../lib/gcc/]
   ignore line: [d:/stm32env/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/]
   ignore line: [d:/stm32env/10 2020-q4-major/bin/../arm-none-eabi/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_81444.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
-  ignore line: [Linking C static library libcmTC_81444.a]
-  ignore line: ["D:\program\Jetbrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -P CMakeFiles\cmTC_81444.dir\cmake_clean_target.cmake]
-  ignore line: ["D:\program\Jetbrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_81444.dir\link.txt --verbose=1]
-  ignore line: [arm-none-eabi-ar qc libcmTC_81444.a  CMakeFiles/cmTC_81444.dir/CMakeCCompilerABI.c.obj]
-  ignore line: ["D:\STM32Env\10 2020-q4-major\bin\arm-none-eabi-ranlib.exe" libcmTC_81444.a]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_a0c47.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+  ignore line: [Linking C static library libcmTC_a0c47.a]
+  ignore line: ["D:\program\Jetbrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -P CMakeFiles\cmTC_a0c47.dir\cmake_clean_target.cmake]
+  ignore line: ["D:\program\Jetbrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_a0c47.dir\link.txt --verbose=1]
+  ignore line: [arm-none-eabi-ar qc libcmTC_a0c47.a  CMakeFiles/cmTC_a0c47.dir/CMakeCCompilerABI.c.obj]
+  ignore line: ["D:\STM32Env\10 2020-q4-major\bin\arm-none-eabi-ranlib.exe" libcmTC_a0c47.a]
   ignore line: [mingw32-make.exe[1]: Leaving directory 'D:/STM32Env/ClionSTM32Proj/CubeMX-STM32-Libraries-CU/cmake-build-debug/CMakeFiles/CMakeTmp']
   ignore line: []
   ignore line: []
@@ -176,15 +176,15 @@ Parsed C implicit link information from above output:
 Determining if the CXX compiler works passed with the following output:
 Change Dir: D:/STM32Env/ClionSTM32Proj/CubeMX-STM32-Libraries-CU/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/STM32Env/GW32/mingw32/bin/mingw32-make.exe cmTC_1301c/fast && D:/STM32Env/GW32/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_1301c.dir\build.make CMakeFiles/cmTC_1301c.dir/build
+Run Build Command(s):D:/STM32Env/GW32/mingw32/bin/mingw32-make.exe cmTC_e8483/fast && D:/STM32Env/GW32/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_e8483.dir\build.make CMakeFiles/cmTC_e8483.dir/build
 mingw32-make.exe[1]: Entering directory 'D:/STM32Env/ClionSTM32Proj/CubeMX-STM32-Libraries-CU/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_1301c.dir/testCXXCompiler.cxx.obj
-"D:\STM32Env\10 2020-q4-major\bin\arm-none-eabi-g++.exe"     -o CMakeFiles\cmTC_1301c.dir\testCXXCompiler.cxx.obj -c D:\STM32Env\ClionSTM32Proj\CubeMX-STM32-Libraries-CU\cmake-build-debug\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
-Linking CXX static library libcmTC_1301c.a
-"D:\program\Jetbrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -P CMakeFiles\cmTC_1301c.dir\cmake_clean_target.cmake
-"D:\program\Jetbrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_1301c.dir\link.txt --verbose=1
-arm-none-eabi-ar qc libcmTC_1301c.a  CMakeFiles/cmTC_1301c.dir/testCXXCompiler.cxx.obj
-"D:\STM32Env\10 2020-q4-major\bin\arm-none-eabi-ranlib.exe" libcmTC_1301c.a
+Building CXX object CMakeFiles/cmTC_e8483.dir/testCXXCompiler.cxx.obj
+"D:\STM32Env\10 2020-q4-major\bin\arm-none-eabi-g++.exe"     -o CMakeFiles\cmTC_e8483.dir\testCXXCompiler.cxx.obj -c D:\STM32Env\ClionSTM32Proj\CubeMX-STM32-Libraries-CU\cmake-build-debug\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+Linking CXX static library libcmTC_e8483.a
+"D:\program\Jetbrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -P CMakeFiles\cmTC_e8483.dir\cmake_clean_target.cmake
+"D:\program\Jetbrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_e8483.dir\link.txt --verbose=1
+arm-none-eabi-ar qc libcmTC_e8483.a  CMakeFiles/cmTC_e8483.dir/testCXXCompiler.cxx.obj
+"D:\STM32Env\10 2020-q4-major\bin\arm-none-eabi-ranlib.exe" libcmTC_e8483.a
 mingw32-make.exe[1]: Leaving directory 'D:/STM32Env/ClionSTM32Proj/CubeMX-STM32-Libraries-CU/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -192,10 +192,10 @@ mingw32-make.exe[1]: Leaving directory 'D:/STM32Env/ClionSTM32Proj/CubeMX-STM32-
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: D:/STM32Env/ClionSTM32Proj/CubeMX-STM32-Libraries-CU/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/STM32Env/GW32/mingw32/bin/mingw32-make.exe cmTC_89c24/fast && D:/STM32Env/GW32/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_89c24.dir\build.make CMakeFiles/cmTC_89c24.dir/build
+Run Build Command(s):D:/STM32Env/GW32/mingw32/bin/mingw32-make.exe cmTC_5b5b4/fast && D:/STM32Env/GW32/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_5b5b4.dir\build.make CMakeFiles/cmTC_5b5b4.dir/build
 mingw32-make.exe[1]: Entering directory 'D:/STM32Env/ClionSTM32Proj/CubeMX-STM32-Libraries-CU/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_89c24.dir/CMakeCXXCompilerABI.cpp.obj
-"D:\STM32Env\10 2020-q4-major\bin\arm-none-eabi-g++.exe"    -v -o CMakeFiles\cmTC_89c24.dir\CMakeCXXCompilerABI.cpp.obj -c "D:\program\Jetbrains\CLion 2020.3.1\bin\cmake\win\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp"
+Building CXX object CMakeFiles/cmTC_5b5b4.dir/CMakeCXXCompilerABI.cpp.obj
+"D:\STM32Env\10 2020-q4-major\bin\arm-none-eabi-g++.exe"    -v -o CMakeFiles\cmTC_5b5b4.dir\CMakeCXXCompilerABI.cpp.obj -c "D:\program\Jetbrains\CLion 2020.3.1\bin\cmake\win\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp"
 Using built-in specs.
 COLLECT_GCC=D:\STM32Env\10 2020-q4-major\bin\arm-none-eabi-g++.exe
 Target: arm-none-eabi
@@ -203,8 +203,8 @@ Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipelin
 Thread model: single
 Supported LTO compression algorithms: zlib
 gcc version 10.2.1 20201103 (release) (GNU Arm Embedded Toolchain 10-2020-q4-major) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_89c24.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
- d:/stm32env/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/cc1plus.exe -quiet -v -iprefix d:\stm32env\10 2020-q4-major\bin\../lib/gcc/arm-none-eabi/10.2.1/ -isysroot d:\stm32env\10 2020-q4-major\bin\../arm-none-eabi -D__USES_INITFINI__ D:\program\Jetbrains\CLion 2020.3.1\bin\cmake\win\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles\cmTC_89c24.dir\CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\MCqie\AppData\Local\Temp\ccitnL9d.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_5b5b4.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ d:/stm32env/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/cc1plus.exe -quiet -v -iprefix d:\stm32env\10 2020-q4-major\bin\../lib/gcc/arm-none-eabi/10.2.1/ -isysroot d:\stm32env\10 2020-q4-major\bin\../arm-none-eabi -D__USES_INITFINI__ D:\program\Jetbrains\CLion 2020.3.1\bin\cmake\win\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles\cmTC_5b5b4.dir\CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\MCqie\AppData\Local\Temp\ccWpN0V4.s
 GNU C++14 (GNU Arm Embedded Toolchain 10-2020-q4-major) version 10.2.1 20201103 (release) (arm-none-eabi)
 	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
 
@@ -231,17 +231,17 @@ GNU C++14 (GNU Arm Embedded Toolchain 10-2020-q4-major) version 10.2.1 20201103 
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: a4fe51cc32557f05b9d40da079bbd1f1
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_89c24.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
- d:/stm32env/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_89c24.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\MCqie\AppData\Local\Temp\ccitnL9d.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_5b5b4.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ d:/stm32env/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_5b5b4.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\MCqie\AppData\Local\Temp\ccWpN0V4.s
 GNU assembler version 2.35.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10-2020-q4-major) 2.35.1.20201028
 COMPILER_PATH=d:/stm32env/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/;d:/stm32env/10 2020-q4-major/bin/../lib/gcc/;d:/stm32env/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/
 LIBRARY_PATH=d:/stm32env/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/;d:/stm32env/10 2020-q4-major/bin/../lib/gcc/;d:/stm32env/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/;d:/stm32env/10 2020-q4-major/bin/../arm-none-eabi/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_89c24.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
-Linking CXX static library libcmTC_89c24.a
-"D:\program\Jetbrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -P CMakeFiles\cmTC_89c24.dir\cmake_clean_target.cmake
-"D:\program\Jetbrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_89c24.dir\link.txt --verbose=1
-arm-none-eabi-ar qc libcmTC_89c24.a  CMakeFiles/cmTC_89c24.dir/CMakeCXXCompilerABI.cpp.obj
-"D:\STM32Env\10 2020-q4-major\bin\arm-none-eabi-ranlib.exe" libcmTC_89c24.a
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_5b5b4.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+Linking CXX static library libcmTC_5b5b4.a
+"D:\program\Jetbrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -P CMakeFiles\cmTC_5b5b4.dir\cmake_clean_target.cmake
+"D:\program\Jetbrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_5b5b4.dir\link.txt --verbose=1
+arm-none-eabi-ar qc libcmTC_5b5b4.a  CMakeFiles/cmTC_5b5b4.dir/CMakeCXXCompilerABI.cpp.obj
+"D:\STM32Env\10 2020-q4-major\bin\arm-none-eabi-ranlib.exe" libcmTC_5b5b4.a
 mingw32-make.exe[1]: Leaving directory 'D:/STM32Env/ClionSTM32Proj/CubeMX-STM32-Libraries-CU/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -269,10 +269,10 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-none-eabi-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: D:/STM32Env/ClionSTM32Proj/CubeMX-STM32-Libraries-CU/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):D:/STM32Env/GW32/mingw32/bin/mingw32-make.exe cmTC_89c24/fast && D:/STM32Env/GW32/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_89c24.dir\build.make CMakeFiles/cmTC_89c24.dir/build]
+  ignore line: [Run Build Command(s):D:/STM32Env/GW32/mingw32/bin/mingw32-make.exe cmTC_5b5b4/fast && D:/STM32Env/GW32/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_5b5b4.dir\build.make CMakeFiles/cmTC_5b5b4.dir/build]
   ignore line: [mingw32-make.exe[1]: Entering directory 'D:/STM32Env/ClionSTM32Proj/CubeMX-STM32-Libraries-CU/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_89c24.dir/CMakeCXXCompilerABI.cpp.obj]
-  ignore line: ["D:\STM32Env\10 2020-q4-major\bin\arm-none-eabi-g++.exe"    -v -o CMakeFiles\cmTC_89c24.dir\CMakeCXXCompilerABI.cpp.obj -c "D:\program\Jetbrains\CLion 2020.3.1\bin\cmake\win\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp"]
+  ignore line: [Building CXX object CMakeFiles/cmTC_5b5b4.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: ["D:\STM32Env\10 2020-q4-major\bin\arm-none-eabi-g++.exe"    -v -o CMakeFiles\cmTC_5b5b4.dir\CMakeCXXCompilerABI.cpp.obj -c "D:\program\Jetbrains\CLion 2020.3.1\bin\cmake\win\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp"]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=D:\STM32Env\10 2020-q4-major\bin\arm-none-eabi-g++.exe]
   ignore line: [Target: arm-none-eabi]
@@ -280,8 +280,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [Thread model: single]
   ignore line: [Supported LTO compression algorithms: zlib]
   ignore line: [gcc version 10.2.1 20201103 (release) (GNU Arm Embedded Toolchain 10-2020-q4-major) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_89c24.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
-  ignore line: [ d:/stm32env/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/cc1plus.exe -quiet -v -iprefix d:\stm32env\10 2020-q4-major\bin\../lib/gcc/arm-none-eabi/10.2.1/ -isysroot d:\stm32env\10 2020-q4-major\bin\../arm-none-eabi -D__USES_INITFINI__ D:\program\Jetbrains\CLion 2020.3.1\bin\cmake\win\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles\cmTC_89c24.dir\CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\MCqie\AppData\Local\Temp\ccitnL9d.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_5b5b4.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+  ignore line: [ d:/stm32env/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/cc1plus.exe -quiet -v -iprefix d:\stm32env\10 2020-q4-major\bin\../lib/gcc/arm-none-eabi/10.2.1/ -isysroot d:\stm32env\10 2020-q4-major\bin\../arm-none-eabi -D__USES_INITFINI__ D:\program\Jetbrains\CLion 2020.3.1\bin\cmake\win\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles\cmTC_5b5b4.dir\CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\MCqie\AppData\Local\Temp\ccWpN0V4.s]
   ignore line: [GNU C++14 (GNU Arm Embedded Toolchain 10-2020-q4-major) version 10.2.1 20201103 (release) (arm-none-eabi)]
   ignore line: [	compiled by GNU C version 7.3-win32 20180312  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
   ignore line: []
@@ -308,8 +308,8 @@ Parsed CXX implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: a4fe51cc32557f05b9d40da079bbd1f1]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_89c24.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
-  ignore line: [ d:/stm32env/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_89c24.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\MCqie\AppData\Local\Temp\ccitnL9d.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_5b5b4.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+  ignore line: [ d:/stm32env/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_5b5b4.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\MCqie\AppData\Local\Temp\ccWpN0V4.s]
   ignore line: [GNU assembler version 2.35.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10-2020-q4-major) 2.35.1.20201028]
   ignore line: [COMPILER_PATH=d:/stm32env/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/]
   ignore line: [d:/stm32env/10 2020-q4-major/bin/../lib/gcc/]
@@ -318,12 +318,12 @@ Parsed CXX implicit link information from above output:
   ignore line: [d:/stm32env/10 2020-q4-major/bin/../lib/gcc/]
   ignore line: [d:/stm32env/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/]
   ignore line: [d:/stm32env/10 2020-q4-major/bin/../arm-none-eabi/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_89c24.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
-  ignore line: [Linking CXX static library libcmTC_89c24.a]
-  ignore line: ["D:\program\Jetbrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -P CMakeFiles\cmTC_89c24.dir\cmake_clean_target.cmake]
-  ignore line: ["D:\program\Jetbrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_89c24.dir\link.txt --verbose=1]
-  ignore line: [arm-none-eabi-ar qc libcmTC_89c24.a  CMakeFiles/cmTC_89c24.dir/CMakeCXXCompilerABI.cpp.obj]
-  ignore line: ["D:\STM32Env\10 2020-q4-major\bin\arm-none-eabi-ranlib.exe" libcmTC_89c24.a]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_5b5b4.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+  ignore line: [Linking CXX static library libcmTC_5b5b4.a]
+  ignore line: ["D:\program\Jetbrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -P CMakeFiles\cmTC_5b5b4.dir\cmake_clean_target.cmake]
+  ignore line: ["D:\program\Jetbrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_5b5b4.dir\link.txt --verbose=1]
+  ignore line: [arm-none-eabi-ar qc libcmTC_5b5b4.a  CMakeFiles/cmTC_5b5b4.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: ["D:\STM32Env\10 2020-q4-major\bin\arm-none-eabi-ranlib.exe" libcmTC_5b5b4.a]
   ignore line: [mingw32-make.exe[1]: Leaving directory 'D:/STM32Env/ClionSTM32Proj/CubeMX-STM32-Libraries-CU/cmake-build-debug/CMakeFiles/CMakeTmp']
   ignore line: []
   ignore line: []
