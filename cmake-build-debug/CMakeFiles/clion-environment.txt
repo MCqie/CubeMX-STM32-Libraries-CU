@@ -1,4 +1,4 @@
-ToolSet: w64 6.0 (local)@D:\STM32Env\GW32\mingw32
+ToolSet: w64 6.0 (local)@d:\Program Files (x86)\mingGWfor32\mingw32
 Options: 
 
 Options:

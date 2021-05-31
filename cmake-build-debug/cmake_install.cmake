@@ -1,4 +1,4 @@
-# Install script for directory: D:/STM32Env/ClionSTM32Proj/CubeMX-STM32-Libraries-CU
+# Install script for directory: D:/data_in/32_proj/Clion/CubeMX-STM32-Libraries-CU
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/STM32Env/ClionSTM32Proj/CubeMX-STM32-Libraries-CU/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/data_in/32_proj/Clion/CubeMX-STM32-Libraries-CU/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
